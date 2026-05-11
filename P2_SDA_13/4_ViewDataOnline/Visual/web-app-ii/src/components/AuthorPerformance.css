@@ -1,0 +1,57 @@
+.perf-container {
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.perf-header {
+    margin-bottom: 25px;
+    border-bottom: 2px solid #3498db;
+}
+
+.table-wrapper {
+    background: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f8f9fa;
+    padding: 15px;
+    text-align: left;
+    color: #2c3e50;
+}
+
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.revenue {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+/* Badge-uri pentru vizualizarea rapidă a stării de Swap */
+.badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.swapped {
+    background-color: #e1f7e1;
+    color: #27ae60;
+    border: 1px solid #27ae60;
+}
+
+.not-swapped {
+    background-color: #f4f4f4;
+    color: #7f8c8d;
+}

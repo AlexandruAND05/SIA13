@@ -1,0 +1,20 @@
+CREATE TABLE top_1000_most_swapped_books (
+    id SERIAL PRIMARY KEY,
+    title VARCHAR(255),
+    author VARCHAR(255),
+    genre VARCHAR(100),
+    language VARCHAR(50),
+    publication_year INT,
+    publisher VARCHAR(255),
+    description TEXT,
+    page_count INT,
+    tags TEXT,
+    rating_average NUMERIC(3,2),
+    most_popular_country VARCHAR(100),
+    bestseller_status BOOLEAN,
+    awards TEXT,
+    age_category VARCHAR(100),
+    adapted_to_movie BOOLEAN,
+    movie_release_year INT,
+    isbn VARCHAR(20)
+);

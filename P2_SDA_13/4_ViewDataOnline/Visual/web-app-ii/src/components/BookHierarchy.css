@@ -1,0 +1,13 @@
+.hierarchy-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+.hierarchy-table th { background: #34495e; color: white; padding: 12px; }
+.hierarchy-table td { padding: 10px; border-bottom: 1px solid #ddd; }
+
+/* Stil pentru Totalul General */
+.row-total { background-color: #2c3e50 !important; color: #ecf0f1; font-weight: bold; font-size: 1.1rem; }
+
+/* Stil pentru Subtotaluri per Autor */
+.row-subtotal { background-color: #f1f4f6; font-weight: bold; color: #2980b9; }
+
+/* Indentare pentru titlurile de cărți (ca să pară ierarhie) */
+.row-normal .title-cell { padding-left: 40px; color: #7f8c8d; font-style: italic; }
+.row-subtotal .title-cell { padding-left: 20px; }
